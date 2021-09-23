@@ -1,0 +1,73 @@
+.header__appBar {
+  height: 65px;
+  width: 100vw;
+  background-color: #ffffff;
+  border-bottom: 13px solid #e2e2e2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-right: 60px;
+  margin-left: 40px;
+}
+
+.header__navItem {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.header__icons {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 20px;
+}
+
+.header__icons > img {
+  height: 33px;
+  object-fit: contain;
+}
+
+.header__iconsNotification {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 26px;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__listItem {
+  display: flex;
+  align-items: center;
+}
+
+.header__itemContainer {
+  padding: 24px 20px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__itemContainer > h5 {
+  text-align: center;
+  padding-top: 12px;
+  font-size: 12px;
+}
+
+.active {
+  background-color: #119ce2;
+  padding: 12px 22px;
+  margin-right: 40px;
+  color: #ffffff;
+}

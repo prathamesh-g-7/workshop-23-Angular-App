@@ -1,0 +1,19 @@
+.app {
+  width: 100vw;
+  height: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+  /* display: none; */
+}
+
+.app__main {
+  display: flex;
+}
+
+.app__mainSidebar {
+  flex: 0.2;
+}
+
+.app__mainPatientInfo {
+  flex: 0.8;
+}

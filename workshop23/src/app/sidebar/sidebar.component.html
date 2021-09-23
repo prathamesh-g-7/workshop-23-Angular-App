@@ -1,0 +1,64 @@
+<div class="Sidebar">
+  <div class="Sidebar__top">
+    <h5>Patients</h5>
+    <div class="Sidebar__topArrow">
+      <mat-icon class="keyboard_arrow_left">keyboard_arrow_left</mat-icon>
+    </div>
+  </div>
+  <div class="Sidebar__searchBox">
+    <div class="sidebar__searchBoxInput">
+      <input type="text" placeholder="Search Patient" />
+      <mat-icon class="search-icon">search</mat-icon>
+    </div>
+  </div>
+  <mat-grid-list cols="1" class="Sidebar__gridContainer">
+    <mat-grid-list>
+      <div class="Sidebar__cardContainer">
+        <div class="cardInfo">
+          <img src="/assets/sara-smith.png" class="cardInfo__avatar" />
+          <div class="textInfo">
+            <h3>Sara Smith</h3>
+            <h5>15 Aug 2020</h5>
+          </div>
+        </div>
+        <img src="/assets/sara-active.png" class="sidebar__activeImg" alt="" />
+      </div>
+    </mat-grid-list>
+    <mat-grid-list>
+      <div class="Sidebar__cardContainerNormal">
+        <div class="cardInfo">
+          <img src="/assets/james-johanson.png" class="cardInfo__avatar" />
+          <div class="normalInfo">
+            <h3>James Johnson</h3>
+            <h5>No Clearance</h5>
+          </div>
+        </div>
+        <img src="/assets/inactive.png" class="sidebar__activeImg" alt="" />
+      </div>
+    </mat-grid-list>
+    <mat-grid-list>
+      <div class="Sidebar__cardContainerNormal">
+        <div class="cardInfo">
+          <img src="/assets/patrice-page.png" class="cardInfo__avatar" />
+          <div class="normalInfo">
+            <h3>Patrice Page</h3>
+            <h5>19 Aug 2020</h5>
+          </div>
+        </div>
+        <img src="/assets/active.png" class="sidebar__activeBigImg" alt="" />
+      </div>
+    </mat-grid-list>
+    <mat-grid-list>
+      <div class="Sidebar__cardContainerNormal">
+        <div class="cardInfo">
+          <img src="/assets/derek.png" class="cardInfo__avatar" />
+          <div class="normalInfo">
+            <h3>Derek Diamon</h3>
+            <h5>21 Aug 2020</h5>
+          </div>
+        </div>
+        <img src="/assets/active.png" class="sidebar__activeBigImg" alt="" />
+      </div>
+    </mat-grid-list>
+  </mat-grid-list>
+</div>
